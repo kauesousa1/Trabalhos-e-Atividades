@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#cabecalho{
+    position: relative;
+    background-color: yellowgreen;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    padding: 25px;
+}
+
+#esquerdo{
+    position: relative;
+    background-color: aquamarine;
+    width: 30%;
+    height: 700px;
+    float: left;
+}
+
+#direito{
+    position: relative;
+    background-color: blueviolet;
+    width: 70%;
+    height: 700px;
+    float: left;
+
+}
+footer{
+    position: relative;
+    background-color: rgb(48, 18, 4);
+    color: white;
+    width: 100%;
+    height: 139px;
+    clear: left;
+    
+}
+
+article{
+    position: absolute;
+    background-color: rgb(189, 186, 186);
+    width: 68%;
+    height: 655px;
+    top: 18%;
+    left: 31%;
+
+
+
+}
+#h1{
+    position: absolute;
+    background-color: aquamarine;
+    width: 68%;
+    height: 40px;
+    top: 20%;
+    left: 31%;
+    text-align: center;
+
+}
+
+p{
+    position: absolute;
+    background-color: rgb(114, 58, 12);
+     width: 68%;
+    height: 200px;
+    top: 25%;
+    left: 31%;
+    text-align: center;
+    color: white;
+}
+
+div{
+    position: absolute;
+    background-color: darkgray;
+    width: 68%;
+    height: 350px;
+    top: 47%;
+    left: 31%;
+    text-align: center;
+    color: white;
+}
+nav{
+    position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    top: 18%;
+    left: 2%;
+    
+}
+aside{
+     position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    top: 52%;
+    left: 2%;
+}

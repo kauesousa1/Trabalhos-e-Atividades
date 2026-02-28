@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    position: relative;
+    background-color: grey;
+    width: 1000px;
+    height: 700px;
+    margin:auto;
+    top: 20px;
+    
+}
+
+#AZUL{
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+
+#VERMELHO{
+    position: relative;
+    background-color:red;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+#VERDE{
+    position: relative;
+    background-color:rgb(8, 218, 8);
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    clear: left;
+}
+#AMARELO{
+    position: relative;
+    background-color:yellow;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    border: 10px solid red;
+    box-sizing: border-box;
+}
+
+#CINZA{
+    position: relative;
+    background-color:grey;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    float: left;
+}

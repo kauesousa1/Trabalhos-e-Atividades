@@ -1,0 +1,125 @@
+#laranja{
+    position: absolute;
+    background-color: orange;
+    width: 1000px;
+    height: 400px;
+    left: 400px;
+    top: 20px;
+    z-index: 1;
+    
+}
+
+#barrabranca{
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    left: 600px;
+    top: 200px;
+    z-index: 2;
+    
+}
+
+#quadradopreto{
+    position: absolute;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    left: 1100px;
+    top: 200px;
+    z-index: 2;
+}
+
+#laranja2{
+    position: absolute;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    left:455px;
+    top: 600px;
+}
+
+#cinza1{
+    position: absolute;
+    background-color: rgb(190, 190, 190);
+    width: 200px;
+    height: 200px;
+    left: 675px;
+    top:600px;
+
+}
+
+#ciano1{
+    position: absolute;
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    top: 600px;
+
+}
+
+#cinza2{
+    position: absolute;
+    background-color: rgb(190,190,190);
+    width: 225px;
+    height: 425px;
+    left: 1125px;
+    top: 600px;
+}
+
+#ciano2{
+    position: absolute;
+    background-color: rgb(0, 174, 255);
+    width: 200px;
+    height: 200px;
+    left:455px;
+    top: 825px;
+}
+
+#laranja3{
+    position: absolute;
+    background-color: orange;
+    left: 675px;
+    top: 825px;
+    width: 425px;
+    height: 200px;
+}
+
+#quadradocinza1{
+
+    position: absolute;
+    background-color: grey;
+    left: 525px;
+    top: 475px;
+    width: 170px;
+    height: 50px;
+
+}
+
+#quadradocinza2{
+    position: absolute;
+    background-color: grey;
+    left: 725px;
+    top: 475px;
+    width: 170px;
+    height: 50px;
+}
+
+#quadradocinza3{
+    position: absolute;
+    background-color: grey;
+    left: 925px;
+    top: 475px;
+    width: 200px;
+    height: 50px;
+}
+
+#quadradocinza4{
+    position: absolute;
+    background-color: grey;
+    left: 1150px;
+    top: 475px;
+    width: 170px;
+    height: 50px;
+}

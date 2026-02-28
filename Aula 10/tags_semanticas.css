@@ -1,0 +1,54 @@
+/* css reset */
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{/*quando é uma tag nao usar . # */
+    position: relative; 
+    width: 90%; /* responsividade ta conectado com largura (usar %) */
+    height:auto ;
+    background-color: black;
+    margin: auto;
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+}
+
+#menu{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+}
+
+#esquerda{
+    position: relative;
+    width: 30%;
+    height: 450px;
+    background-color: blueviolet;
+    float: left;
+}
+#direita{
+    position: relative;
+    width: 70%;
+    height: 450px;
+    background-color: rgb(226, 43, 211);
+    float: left;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    color:black;
+    text-align: center;
+    clear:left;
+}

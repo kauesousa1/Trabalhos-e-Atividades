@@ -1,0 +1,65 @@
+#azul{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    left: 400px;
+    top: 10px;
+    z-index: 1;
+}
+
+#vermelha{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    left: 600px;
+    top: 10px;
+    z-index: 1;
+}
+
+#verde{
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    background-color: green;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    left: 400px;
+    top: 110px;
+    z-index: 1;
+}
+
+#amarela{
+    position: absolute;
+    height:540px ;
+    width: 1000px;
+    background-color: yellow;
+    border: 8px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    left: 400px;
+    top: 170px;
+    z-index: 1;
+    box-sizing: border-box; /* é para quando colocar borda nao inchar o componente */
+
+
+}
+
+#cinza{
+    position: absolute;
+    height:60px;
+    width:1000px ;
+    background-color: grey;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    left: 400px;
+    top: 710px;
+    z-index: 1;
+}
