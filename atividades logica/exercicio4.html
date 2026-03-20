@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4 de logica</title>
+</head>
+<body>
+    <script>
+
+        let ipi = prompt(" Porcentagem do IPI a ser a acrescido " )
+        let codigo = prompt(" Codigo da peça 1 ")
+        let valor1 = prompt(" Valor da peça 1 ")
+        let quant1 = prompt("Quantidade da peça 1")
+
+        let codigo2 = prompt(" Codigo da peça 2 ")
+        let valor2 = prompt(" Valor da peça 2 ")
+        let quant2 = prompt("Quantidade da peça 2")
+
+        let total = (valor1*quant1 + valor2*quant2)*(ipi/100 + 1) 
+        document.write("Valor total a ser pago: " + total)
+
+    </script>
+</body>
+</html>
