@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saldo medio</title>
+</head>
+<body>
+
+    <script>
+
+        let saldo = parseFloat(prompt("insira seu salario medio: "));
+        let valor = 0
+
+        if (saldo <= 500 ) {
+        document.write(" nenhum crédito!");  
+        }
+
+        else if (saldo >= 501 && saldo <=1000 ) {
+            valor = saldo * 0.30
+            document.write ("Seu saldo medio é: " + valor);
+        }
+
+        else if (saldo >= 1001 && saldo <=3000) {
+            valor = saldo * 0.40
+            document.write ("Seu saldo medio é: " + valor);
+        }
+
+        else  {    
+            valor = saldo * 0.50
+            document.write("Seu saldo medio é: " + valor);
+            
+        }
+       
+
+
+
+
+
+
+
+
+    </script>
+
+    
+</body>
+</html>

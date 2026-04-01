@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 11</title>
+</head>
+<body>
+
+    <script>
+        let nome = (prompt("Digite seu nome: "));
+        let fixo = parseFloat(prompt("Digite seu salario fixo: "));
+        let vendas = parseFloat(prompt("Digite seu total de vendas efetuadas por mês(em dinherio): "));
+
+        let comissao = vendas * 0.15;
+
+        let salariofinal = fixo + comissao;
+
+        document.write("Nome do vendedor: " + nome);
+        document.write("<br> Salario fixo: " + fixo);
+        document.write("<br> Comissão: R$" + comissao.toFixed());
+        document.write("<br><strong> Salario final do mês: R$" + salariofinal.toFixed());
+
+
+
+    </script>
+    
+</body>
+</html>

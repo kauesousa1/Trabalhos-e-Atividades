@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+
+}
+
+
+#header1{
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-family: Verdana;
+    margin: auto;
+    font-size: 50px;
+
+}
+ 
+#menu{
+    position: relative;
+    background-color: rgb(10, 10, 121);
+    width: 1000;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#menu2{
+    position: relative;
+    background-color: rgb(175, 175, 175);
+    width: 20%;
+    height: 700px;
+   /* display: flex; /* alinha os componentes dentro de uma area */ 
+   /* align-items: center; /*alinhamento vertical */
+    flex-direction: column; /*coloca um do lado do outro ou um abaixo do outro*/
+    justify-content: space-around; /* alinha tudo automaticamente */
+    float: left;
+    font-size: 30px;
+}
+
+section{
+    background-color: pink;
+    width: 60%;
+    height: 700px;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+}
+
+aside{
+    background-color: rgb(112, 12, 99);
+    width: 20%;
+    height: 700px;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 99px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    clear: both;
+}
+
+#header2{
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 47%;
+    height: 50px;
+    top: 23%;
+    left: 500px;
+    text-align: center;
+
+}
+
+#primeiro{
+    position: absolute;
+    background-color: rgb(233, 113, 0);
+    color: rgb(255, 255, 255);
+    width: 47%;
+    height: 300px;
+    top: 30%;
+    left: 500px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#segundo{
+     position: absolute;
+    background-color: rgb(136, 136, 136);
+    color: black;
+    width: 15%;
+    height: 100px;
+    top: 75%;
+    left: 500px;
+    text-align: center;
+}
+
+#terceiro{
+     position: absolute;
+    background-color: rgb(139, 139, 139);
+    color: black;
+    width: 15%;
+    height: 100px;
+    top: 75%;
+    left: 800px;
+    text-align: center;
+}
+
+#quarto{
+     position: absolute;
+    background-color: rgb(131, 128, 128);
+    color: black;
+    width: 15%;
+    height: 100px;
+    top: 75%;
+    left: 1100px;
+    text-align: center;
+}
+
+h1{
+     position: absolute;
+    background-color: rgb(163, 158, 175);
+    color: rgb(255, 253, 253);
+    width: 47%;
+    height: 120px;
+    top: 62%;
+    left: 500px;
+    text-align: center;
+}
+
+

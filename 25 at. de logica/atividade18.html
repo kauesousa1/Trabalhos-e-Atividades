@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 18</title>
+</head>
+<body>
+
+    <script>
+        let nomeDaPessoaMaisNova = "";
+        let menorIdadeEncontrada = Infinity; // Infinity é um valor especial em JavaScript que representa um número maior do que qualquer outro número. Ele é usado aqui para garantir que qualquer idade digitada pelo usuário será menor do que idadeMaisNova, permitindo assim que a primeira idade digitada seja considerada a mais nova inicialmente.
+
+        for (let i = 1; i <= 10; i++) {
+            let nomeDigitado = prompt("Digite o nome da " + i + "ª pessoa: ")
+            let idadeDigitada = parseInt(prompt("Digite a idade da" + i + "ª pessoa"));
+
+            if (nomeDigitado < menorIdadeEncontrada) {
+                menorIdadeEncontrada = idadeDigitada;
+                nomeDaPessoaMaisNova = nomeDigitado;
+            }
+        }
+
+        document.write("A pessoa mais nova é: " + nomeMaisNovo + "idade: " + idadeMaisNova + ")");
+    </script>
+    
+</body>
+</html>

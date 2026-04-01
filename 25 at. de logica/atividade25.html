@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 25</title>
+</head>
+<body>
+
+    <h1>25 Escreva um programa que leia uma sequência de números do usuário e realize e a
+soma desses números. Encerre a execução quando um número negativo for digitado</h1>
+
+    <script>
+        let soma = 0;
+        let numeros = 0;
+
+        while (numeros >=0 ){
+            numeros = Number(prompt("coloque um numero (coloque negativo para parar): "))
+            
+            if ( numeros >= 0 ){
+                soma += numeros;
+            }
+
+        }
+
+        document.write("A soma dos numeros é: " + soma)
+
+    </script>
+    
+</body>
+</html>

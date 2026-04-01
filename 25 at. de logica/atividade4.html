@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados tres valores</title>
+</head>
+<body>
+
+    <script>
+
+        let a = parseFloat(prompt("digite seu valor A: "));
+        let b = parseFloat(prompt("digite seu valor B: "));
+        let c = parseFloat(prompt("digite seu valor c: "));
+
+        if (a > b && a > c) {
+            if (b > c) {
+                document.write("Valores : " + a + ", " + b + ", " + c);
+            }else {
+                document.write(" valor em ordem decrescente; "+ a +" , "+ c +" , "+ b );
+            }
+        }else if (b > a && b > c) {
+            if ( a > c) {
+            document.write(" valor em ordem decrescente; " + b +" , " + a + " , "+ c);
+            }else {
+            document.write("valor em ordem decrescente; " + b + ", " + c + " , " + a);
+            }
+        }else {
+             if (a > b) {
+                document.write("valor em ordem decrescente:  " + c + ", " + a + ", " + b);
+                
+             }else {
+                document.write("valor em ordem decrescente: " + c + ", "+ b + "," +a);
+             }
+        }
+
+        // usar if dentro de if quando quero conferir duas condições ao mesmo tempo
+
+    </script>
+    
+</body>
+</html>

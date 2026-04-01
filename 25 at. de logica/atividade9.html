@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9</title>
+</head>
+<body>
+
+    <h1>Quantos salarios minimos voce ganha?</h1>
+
+    <script>
+
+        
+        salariominimo = 1212.0; 
+        let valor = parseInt(prompt("Coloque seu valor: ")).toFixed();
+
+        let quant = (valor / salariominimo).toFixed(2);
+
+        document.write("Aqui está a quantidade de salarios minimos que você ganha: " + quant).toFixed();
+
+        if (quant >= 2424.0) {
+            document.write("<br>Você recebe mais de 2 salarios minimos!")
+        }else if (quant >= 3600.0) {
+            document.write("<br>Você recebe 3 salarios minimos!")
+        }else if(quant >= 4500.0){
+            document.write("<br>Você recebe mais que 3 salarios minimos!")
+        }else(quant <= 1212.0) 
+            document.write("Voce recebe menos que um salario minino!");
+        500
+        
+
+
+    </script>
+    
+</body>
+</html>

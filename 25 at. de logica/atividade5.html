@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+
+    <h1>Atividade 5, você é ou não é um eleitor?</h1>
+    <script>
+
+        let idade = parseInt(prompt("Digite sua idade: "));
+
+        if (idade < 16) {
+            document.write("Você é de menor e não pode votar.");
+        }else if (idade >= 18 && idade <= 65) {
+            document.write("Você é um eleitor obrigatorio!");
+        }else if ( idade >= 16 && idade <= 18) {
+            document.write("Você é um eleitor facultativo!");
+        }else{
+            document.write("Indisponivel!");
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

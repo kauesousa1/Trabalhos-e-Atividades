@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de calorias </title>
+</head>
+<body>
+
+        <h1>Veja seu total de calorias consumidas:</h1>
+    <script>
+
+        
+        const pratos = {
+            1:180, 
+            2:230, 
+            3:250, 
+            4:350,
+        };
+
+        const sobremesas = {
+            1: 75,
+            2: 110,
+            3: 170,
+            4: 200,
+        };
+
+        const bebidas = {
+            1: 20,
+            2: 70,
+            3: 100,
+            4: 65,
+        };
+
+
+        let prato = parseFloat(prompt("Informe seu prato (1 a 4): "))
+        let sobremesa = parseFloat(prompt("Informe sua sobremesa (1 a 4): "))
+        let bebida = parseFloat(prompt("Informe sua bebida (1 a 4): "))
+
+        let total = pratos[prato] + sobremesas[sobremesa] + bebidas[bebida];
+
+        document.write("Seu total de calorias consumidas foi: " + total)
+
+        if (!pratos[prato] || !sobremesas[sobremesa] || !bebidas[bebida]) {
+        alert ("Opção invalida!");
+        }else{
+        let total = pratos[prato] + sobremesas[sobremesa] + bebidas[bebida];
+        alert("Seu total de calorias consumidas foi: " + total)
+        }
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
