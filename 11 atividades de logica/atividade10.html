@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 10</title>
+</head>
+<body>
+    <h1>10 - Escreva um programa para imprimir todas as tabuadas de 1 a N. N será informado pelo usuário.</h1>
+
+    <script>
+        let N = parseInt(prompt("Digite um número:"));
+
+for (let i = 1; i <= N; i++) {
+  document.write("Tabuada do " + i);
+
+  for (let j = 1; j <= 10; j++) {
+    document.write(i + " x " + j + " = " + (i * j) + "<br>");
+  }
+
+  dcument.write(""); // espaço entre tabuadas
+}
+
+
+    </script>
+    
+</body>
+</html>

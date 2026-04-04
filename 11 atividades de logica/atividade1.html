@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 de logica usando For - While - Do </title>
+</head>
+<body>
+    <h1>Escreva um algoritmo para ler 2 valores informados pelo usuário e se o segundo valor informado for igual ou menor que ZERO, deve ser lido um novo valor. Ou seja, para o segundo valor não pode ser aceito o valor zero, nem um valor negativo.  O seu programa deve imprimir o resultado da divisão do primeiro valor lido pelo segundo valor.</h1>
+    <script>
+
+        let valor1 = parseFloat(prompt("Digite seu primeiro valor: "));
+        let valor2 = parseFloat(prompt("Digite seu segundo valor: "));
+
+        while (valor2<=0){
+            alert("Seu valor inserido é invalido!")
+            valor2 = parseFloat(prompt("digite um novo valor!"))
+        }
+
+        let divisao = valor1 / valor2
+
+        document.write("Aqui esta o resultado da divisão: " + divisao);
+
+    </script>
+</body>
+</html>

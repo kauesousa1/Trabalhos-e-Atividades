@@ -1,0 +1,11 @@
+
+        
+        if (valor2 <= 0){
+            alert("Não pode inserir valor 0, adicione um novo valor")
+        }else{
+            document.write("Faça um novo formulario!")
+        }
+
+        let divisao = valor1 / valor2
+
+        document.write(" seu valor é: " + divisao)
