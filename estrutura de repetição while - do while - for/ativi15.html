@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15</title>
+</head>
+<body>
+    
+
+    <script>
+        let somaIdades = 0;
+        let contador = 0;
+        let nome = "";
+
+        while (nome !== "fim") {
+            nome = prompt("Digite seu nome (ou 'fim' para encerrar): ");
+            if (nome !== "fim") {
+                let idade = parseInt(prompt("Digite sua idade: "));
+                somaIdades += idade;
+                contador++;
+            }
+        }
+
+        if (contador > 0) {
+            let media = somaIdades / contador;
+            document.write("A média das idades é: " + media.toFixed(2));
+        } else {
+            document.write("Nenhuma idade foi inserida.");
+        }
+    </script>
+</body>
+</html>

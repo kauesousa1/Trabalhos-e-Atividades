@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+</head>
+<body>
+    
+
+    <script>
+        let numero = parseInt(prompt("Digite um numero inteiro: "));
+
+        if (numero === 0) {
+            document.write("0");
+        } else {
+            while (numero > 0) {
+                let digito = numero % 10;
+                document.write(digito + " ");
+                numero = Math.floor(numero / 10);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+    <h1>5 Escreva um programa que leia um número inteiro e exiba a tabuada desse número até o décimo valor usando o loop "while". </h1>
+
+    <script>
+        let numero = parseInt(prompt("Digite um número inteiro para exibir a tabuada:"));
+        let contador = 1;
+
+        while (contador <= 10) {
+            let resultado = numero * contador;
+            document.write(numero + " x " + contador + " = " + resultado + "<br>");
+            contador++;
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+</head>
+<body>
+
+    <script>
+        let numero = parseInt(prompt("Digite um numero inteiro: "));
+        let fatorial = 1; // coloco o 1 para o caso do numero ser 0 ou 1, pois o fatorial de ambos é 1
+        
+        if (numero < 0) {
+            document.write("Fatorial não definido para números negativos.");
+        } else {
+            let i = numero;
+            while (i > 1) {
+                fatorial *= i;
+                i--;
+            }
+            document.write("O fatorial de " + numero + " é: " + fatorial);
+        }
+    </script>
+    
+</body>
+</html>
