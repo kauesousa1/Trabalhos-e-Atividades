@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 19 MATRIZ</title>
+</head>
+<body>
+    <h1>19 Faça um programa que leia duas matrizes 2x2 de números inteiros e exiba a soma das duas matrizes.</h1>
+
+    <script>
+
+        let matriz1 = [];
+        let matriz2 = [];
+        let soma = [];
+
+        for(let i = 0; i < 2; i++){
+            matriz1[i] = [];
+            matriz2[i] = [];
+            soma[i] = [];
+
+            for (let j = 0; j < 2; j++){
+                matriz1[i][j] = parseInt(prompt("Digite um numero"))
+                matriz2[i][j] = parseInt(prompt("Digite um numero"))
+
+                soma[i][j] = matriz1[i][j] + matriz2[i][j]
+            }
+
+        }
+
+        document.write("Resultado da soma das matrizes: " + soma)
+
+        for(let i = 0; i < 2; i++){
+            for (let j = 0; j < 2; j++){
+
+            document.write(soma[i][j] + " ")
+            }
+
+            documet.write("<br>");
+        }
+    </script>
+</body>
+</html>

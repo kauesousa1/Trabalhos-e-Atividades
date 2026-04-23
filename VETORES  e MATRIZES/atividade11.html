@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11 VETORES</title>
+</head>
+<body>
+
+    <h1>11 Escreva um programa que leia 10 números inteiros e exiba a soma dos valores positivos e a soma dos valores negativos.</h1>
+    
+    <script>
+
+
+        let positivos = 0;
+        let negativos = 0;
+        let soma = 0;
+
+        for (let i = 0; i < 10; i++){
+            let numeros = parseInt(prompt("Digite um numero positivo ou negativo:"))
+
+            if (numeros >= 0){
+                positivos = positivos + numeros
+            }else{
+                negativos = negativos + numeros
+            }
+        }
+
+        document.write("A soma dos numeros positivos são: " + positivos + "<br>")
+        document.write("A soma dos numeros negativos são: " + negativos)
+
+        
+
+
+
+    </script>
+    
+</body>
+</html>

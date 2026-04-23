@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13 VETORES</title>
+</head>
+<body>
+    
+    <h1>13 Faça um programa que leia 10 números inteiros e exiba quantos deles estão no intervalo de 10 a 50.</h1>
+
+    <script>
+
+        let vetor = [];
+        let contador = 0;
+
+        for (let i = 1; i <= 10; i++){
+            let numeros = parseInt(prompt("Digite Um numero de 1 a 50: "))
+            vetor[i] = numeros
+
+            if (numeros >= 10 && numeros <= 50){
+                contador++
+            }else{
+
+            }
+        }
+
+        document.write("Aqui estão os numeros que você digitou, e estão entre 10 e 50: " + contador)
+
+    </script>
+    
+</body>
+</html>

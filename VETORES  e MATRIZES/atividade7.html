@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7 VETORES</title>
+</head>
+<body>
+
+    <h1>07 Faça um programa que leia 10 números inteiros e exiba quantos deles são positivos.</h1>
+
+    <script>
+
+        let positivos = [];
+        let contador = 0;
+
+        for (let i = 0; i < 10; i++){
+            let numero = parseInt(prompt("Digite um número inteiro:"));
+            positivos[i] = numero
+
+            if (positivos[i] > 0){
+                contador++
+            }
+        }
+
+        alert("A quantidade de numeros positivos são: " + contador)
+
+
+
+    </script>
+    
+</body>
+</html>

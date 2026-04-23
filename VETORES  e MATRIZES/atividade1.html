@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 Vetores</title>
+</head>
+<body>
+
+
+    <h1>01 Faça um programa que leia 5 números inteiros e exiba-os na ordem inversa em que foram digitados.</h1>
+
+
+    <script>
+
+        
+        let lista = []; // usar somente quando for uma lista 
+
+        for (let i = 1; i <= 5; i++) {
+            let nu = parseInt(prompt("digite 1º inteiro")); // let nu entrada do usuario
+            lista [i] = nu // lista recebe (i) 
+        }
+
+
+        lista.sort((a,b) => b - a); // lista.sort voce pode colocar qualquer intem em ordem decrascente e crescente, incluindo numeros e letras
+
+        document.write(lista)
+
+    </script>
+    
+</body>
+</html>

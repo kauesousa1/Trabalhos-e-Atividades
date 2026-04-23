@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade20 MATRIZES</title>
+</head>
+<body>
+
+    <h1>20 Escreva um programa que leia uma matriz 3x3 de números inteiros e exiba o maior valor presente na matriz.</h1>
+
+    <script>
+
+        let matriz = [];
+        let maior;
+
+       
+        for (let i = 0; i < 3; i++) {
+        matriz[i] = [];
+        
+        for (let j = 0; j < 3; j++) {
+            let numero = parseInt(prompt(`Digite o valor [${i}][${j}]:`));
+            matriz[i][j] = numero;
+
+            // Definir o maior
+            if (i === 0 && j === 0) {
+            maior = numero; 
+            } else if (numero > maior) {
+            maior = numero;
+            }
+        }
+        }
+
+        
+        console.log("Maior valor da matriz:", maior);
+
+    </script>
+    
+</body>
+</html>

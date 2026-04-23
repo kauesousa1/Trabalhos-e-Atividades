@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9 VETORES</title>
+</head>
+<body>
+
+    <h1>09 Crie um programa que leia 10 números inteiros e exiba a quantidade de números positivos e a quantidade de números negativos.</h1>
+
+    <script>
+
+        let vetor = [];
+        let qntdPositivos = 0;
+        let qntdNegativos = 0;
+        let zero = 0;
+
+        for (let i = 0; i < 10; i++){
+            let numeros = parseInt(prompt("Digite Um Numero Inteiro: "));
+            vetor[i] = numeros
+
+            if (numeros > 0){
+                qntdPositivos++;
+            }else if ( numeros < 0){
+                qntdNegativos++;
+            }else {
+                zero++
+            }
+        }
+
+        document.writeln("Aqui está a quantidade de números positivos: " + qntdPositivos)
+        document.writeln("Aqui está a quantidade de numeros negativos: " + qntdNegativos)
+        document.writeln("Quantidade de zeros: " + zero)
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 18 MATRIZ</title>
+</head>
+<body>
+
+    <h1>18 Crie um programa que leia uma matriz 3x3 de números inteiros e exiba a soma dos elementos da diagonal principal.</h1>
+
+    <script>
+        
+        let matriz = [];
+        let soma = 0;
+
+        for(let i = 0; i < 3; i++){
+            matriz[i] = []
+
+            for(let j = 0; j < 3; j++){
+                matriz[i][j] = parseInt(prompt("Digite um número:"))
+            }
+        }
+
+        for (let i = 0; i < 3;i++){
+        soma+= matriz[i][i]
+        }
+
+        document.write("Aqui está a soma dos elementos nas diagonais: " + soma)
+
+    </script>
+    
+</body>
+</html>

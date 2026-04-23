@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 16 MATRIZES</title>
+</head>
+<body>
+
+    <h1>16 Faça um programa que leia uma matriz 3x3 de números inteiros e exiba a matriz na tela.</h1>
+
+    <script>
+        let matriz = []; // matriz para armazenar o valor 
+
+        for (let i = 0; i < 3; i++){
+            matriz[i] = []; // primeiro eu crio a linha (i) uqe vai ser da matriz
+
+            for (let j = 0; j < 3; j++){
+                matriz[i][j] = parseInt(prompt("Digite um número: ")); // aqui é a coluna da matriz
+            }
+        }
+
+     // essa parte serve para mostrar a MATRIZ a tela.
+        for (let i = 0; i < 3; i++){
+            for ( let j = 0; j < 3; j++){
+                document.write(matriz[i][j] + " ") 
+            }
+
+            document.write("<br>")
+        }
+
+        
+    </script>
+
+    
+    
+</body>
+</html>

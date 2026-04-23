@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade2 VETORES</title>
+</head>
+<body>
+
+    <h1>02 Escreva um programa que leia 10 números inteiros e exiba a soma deles.</h1>
+    
+    <!-- <script>
+
+        let soma = 0;
+
+        for ( let i = 0; i < 10; i++){
+            let valor = parseInt(prompt("Digite um numero"));
+            soma+=valor;
+        }
+
+        document.write(soma)
+
+        
+    </script> -->
+
+    <script>
+
+        let lista = [];
+
+        for (let i = 0; i < 10; i++){
+            let valor = parseInt(prompt("Digite um numero"));
+            lista[i] = valor
+        }
+
+        let soma = 0;
+
+        for (let j = 0; j < 10; j++){
+            soma+=lista[j]
+        }
+
+        document.write(soma)
+
+    </script>
+
+</body>
+</html>

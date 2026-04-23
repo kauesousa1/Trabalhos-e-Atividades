@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 24 MATRIZES</title>
+</head>
+<body>
+
+    <h1>24 Crie um programa que leia uma matriz 3x3 de números inteiros e verifique se ela é simétrica (igual à sua transposta).</h1>
+
+    <script>
+
+        let matriz = [];
+        let simetrica = true;
+
+        
+        for (let i = 0; i < 3; i++) {
+        matriz[i] = [];
+        
+        for (let j = 0; j < 3; j++) {
+            matriz[i][j] = parseInt(prompt(`Digite o valor [${i}][${j}]:`));
+        }
+        }
+
+        
+        for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            if (matriz[i][j] !== matriz[j][i]) {
+            simetrica = false;
+            break;
+            }
+        }
+        if (!simetrica) break;
+        }
+
+        // Resultado
+        if (simetrica) {
+        console.log("A matriz é simétrica");
+        } else {
+        console.log("A matriz NÃO é simétrica");
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8 VETORES</title>
+</head>
+<body>
+
+    <h1>08 Escreva um programa que leia 5 números inteiros e calcule a média dos valores pares e a média dos valores ímpares.</h1>
+
+    <script>
+
+        let vetor = [];
+        let qntPares = 0;
+        let qntImpares = 0;
+        let somapares = 0;
+        let somaimpares = 0;
+
+        for (let i = 0; i < 5; i++){
+            let numeros = parseInt(prompt("Digite um numero: "))
+            vetor[i] = numeros
+
+            if (numeros % 2 === 0){
+                somapares += numeros
+                qntPares++;
+            }else{
+                somaimpares += numeros;
+                qntImpares++;
+            }
+        }
+
+        let mediaPares = qntPares > 0 ? somapares / qntPares: 0;
+        let mediaImpares = qntImpares > 0? somaimpares / qntImpares: 0;
+
+        document.writeln("Aqui está a média dos numeros pares: " + mediaPares);
+        document.writeln("Aqui está a média dos numeros impares: " + mediaImpares);
+
+
+
+    </script>
+    
+</body>
+</html>

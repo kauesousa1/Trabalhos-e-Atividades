@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 23 MATRIZES</title>
+</head>
+<body>
+    
+    <h1>23 Escreva um programa que leia uma matriz 3x3 de números inteiros e exiba o menor valor presente na matriz.</h1>
+
+    <script>
+        let matriz = [];
+        let menor;
+
+        
+        for (let i = 0; i < 3; i++) {
+        matriz[i] = [];
+        
+        for (let j = 0; j < 3; j++) {
+            let numero = parseInt(prompt(`Digite o valor [${i}][${j}]:`));
+            matriz[i][j] = numero;
+
+            
+            if (i === 0 && j === 0) {
+            menor = numero; 
+            } else if (numero < menor) {
+            menor = numero;
+            }
+        }
+        }
+
+        
+        console.log("Menor valor da matriz:", menor);
+        
+    </script>
+
+</body>
+</html>

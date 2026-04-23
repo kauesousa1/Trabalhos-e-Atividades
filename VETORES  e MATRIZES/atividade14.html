@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14 VETORES</title>
+</head>
+<body>
+
+    <h1>14 Escreva um programa que leia 7 números inteiros e exiba apenas os números pares.</h1>
+
+    <script>
+    
+        let vetor = [];
+
+        for (let i = 1; i <= 7; i++){
+            let numeros = parseInt(prompt("Digite Um numero: "))
+            vetor[i] = numeros
+            
+
+            if (numeros %2 == 0){
+                document.write("Aqui está os numeros pares: " + numeros + "<br>")
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

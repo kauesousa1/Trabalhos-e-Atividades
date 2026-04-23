@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15 VETORES</title>
+</head>
+<body>
+
+    <h1>15 Crie um programa que leia 5 nomes e exiba-os em ordem alfabética.</h1>
+
+    <script>
+
+        let vetor = [];
+
+        for (let i = 0; i < 5; i++){
+            let nomes = prompt("Digite um nome: ")
+            vetor[i] = nomes
+        }
+
+        vetor.sort();
+
+        document.write("Aqui estão os nomes que você digitou em ordem alfabética: " + vetor)
+
+    </script>
+    
+</body>
+</html>
