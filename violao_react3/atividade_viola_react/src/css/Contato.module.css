@@ -1,0 +1,96 @@
+
+
+.cor{
+     display: flex;
+    width: 95%;
+    display: flex;
+    position: relative;
+    left: 50px;
+    height: 700px;
+    width: 95%;
+    background-color: rgb(250, 134, 134);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 98%;
+    background-color: white;
+    left: 0px;
+    top: 20px;
+}
+
+button{
+    width: 520px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+.areaDeDados{
+    position: relative;
+    width: 50%;
+}
+
+.inserir{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 70px;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido {
+  padding: 10px;
+  vertical-align: top;
+  resize: none; /* opcional */
+  height: 200px;
+  width: 500px;
+   border-radius: 5px;
+}
+
+.pedido textarea{
+    padding-top: 200px;
+}
+
+.redesociais{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.redesociais h2{
+    color: blue;
+    font-size: 40px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+
+}
+.icones{
+    width: 150px;
+    height: 150px;
+}

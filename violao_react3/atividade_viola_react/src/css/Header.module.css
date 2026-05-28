@@ -1,0 +1,42 @@
+header{
+    position: relative;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.guitarraFundo{
+    position: relative;
+    width: 100%;
+}
+
+.headerGuitarra{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 95%;
+    z-index: 2;
+    height: 250px;
+}
+
+.menu{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    z-index: 3;
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

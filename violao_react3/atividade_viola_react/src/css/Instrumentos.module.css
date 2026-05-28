@@ -1,0 +1,39 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.imagens div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+.violao {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.imagens p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.imagens span{
+    color: red;
+    font-weight: bold;
+}
